@@ -53,8 +53,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 
-#electron-packager
+# electron-packager
 release-builds/
 
-#vscode
+# vscode
 .vscode/

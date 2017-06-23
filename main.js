@@ -9,7 +9,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 280,
     height: 400,
-    transparent: true
+    transparent: true,
+    icon: path.join(__dirname, "icon.png")
   })
 
   mainWindow.loadURL(

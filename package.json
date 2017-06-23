@@ -5,11 +5,11 @@
   "description": "An Electron application to create countdown timers",
   "main": "main.js",
   "scripts": {
-    "start": "webpack --display-error-details & ./node_modules/.bin/electron .",
+    "start": "webpack & ./node_modules/.bin/electron .",
     "build": "webpack -w --progress --display-error-details",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint **/*.js",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icon.icns --prune=true --out=release-builds"
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./assets/icon.icns --prune=true --out=release-builds"
   },
   "keywords": [
     "Electron",
