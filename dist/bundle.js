@@ -318,7 +318,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(["\n  font-size: 18vw;\n  line-height: 1;\n  color: palevioletred;\n"], ["\n  font-size: 18vw;\n  line-height: 1;\n  color: palevioletred;\n"]);
+var _templateObject = _taggedTemplateLiteral(["\n  font-size: 16vw;\n  line-height: 1;\n  color: palevioletred;\n  font-family: PingFangSC-Light, \"helvetica neue\", \"hiragino sans gb\", sans-serif\n"], ["\n  font-size: 16vw;\n  line-height: 1;\n  color: palevioletred;\n  font-family: PingFangSC-Light, \"helvetica neue\", \"hiragino sans gb\", sans-serif\n"]);
 
 var _react = __webpack_require__(0);
 
